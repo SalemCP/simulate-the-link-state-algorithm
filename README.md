@@ -40,6 +40,7 @@ This is a Python implementation of a network routing algorithm based on Dijkstra
 - The script provides two methods for computing forwarding tables:
 
 Dijkstra's Algorithm: This method uses Dijkstra's algorithm to find the shortest path between each pair of nodes in the network. It then generates a forwarding table for each node that lists the next hop for each destination node. To use this method, choose the d option when prompted.
+
 Shortest Path Algorithm: This method uses the built-in shortest_path function of the networkx library to find the shortest path between each pair of nodes in the network. It then generates a forwarding table for each node that lists the next hop for each destination node. To use this method, choose the s option when prompted.
 
 ## Output
